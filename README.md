@@ -1,8 +1,10 @@
-# 📊 Consulting Engagement Profitability & Utilisation Analysis:Meridian & Partners
+# 📊 Consulting Engagement Profitability & Utilisation Analysis — Meridian & Partners
 
 ### Profitability Waterfall · Utilisation Gap Analysis · Partner Decision Matrix · Scenario Modelling
 
-> **"Closing the firm-wide utilisation gap from 71.3% to 75% represents a £4.2M annual revenue opportunity — primarily driven by underutilised Senior Managers and Directors in the Technology & People practices. Simultaneously, scope creep is eroding £988K in contracted margin annually, with Data Strategy and M&A Due Diligence engagements losing the most."**
+> **This project identifies £4.2M in unrealised revenue and £988K in margin leakage within a mid-size consulting firm — and outlines exactly how to recover it.**
+
+![Executive Dashboard](visuals/01_executive_dashboard.png)
 
 ---
 
@@ -12,9 +14,9 @@ Meridian & Partners is a UK-based management consulting firm with **305 consulta
 
 Three interconnected problems are costing the firm millions:
 
-1. **The utilisation gap** - The firm operates at **71.3% utilisation** against a 75% target. That 3.7 percentage point gap translates to £4.2M in unrealised revenue sitting on the bench.
-2. **Scope creep** — Engagements are contracted at an average **42% margin** but delivered at **38.1%**. That 3.9 percentage point erosion represents **£988K in leaked margin** - money that was sold but never collected.
-3. **Portfolio imbalance** - Not all engagements deserve the same investment. A partner-level decision matrix reveals which engagements to expand, reprice, fix, or exit.
+1. **The utilisation gap** — The firm operates at **71.3% utilisation** against a 75% target. That 3.7 percentage point gap translates to £4.2M in unrealised revenue sitting on the bench.
+2. **Scope creep** — Engagements are contracted at an average **42% margin** but delivered at **38.1%**. That 3.9 percentage point erosion represents **£988K in leaked margin** — money that was sold but never collected.
+3. **Portfolio imbalance** — Not all engagements deserve the same investment. A partner-level decision matrix reveals which engagements to expand, reprice, fix, or exit.
 
 This is the analysis a firm's Managing Partner would commission before the next strategy offsite.
 
@@ -24,15 +26,15 @@ This is the analysis a firm's Managing Partner would commission before the next 
 
 The firm's Management Committee needs answers to five questions:
 
-1. **Where is margin leaking between contract and delivery?** - Which practice areas and engagement types suffer the most from scope creep?
-2. **Where is utilisation falling short, and what's the revenue cost?** - Which consultant levels and practices are driving the gap?
-3. **Which engagements should we expand, reprice, or exit?** - How do we prioritise the portfolio for maximum return?
-4. **Are there seasonal patterns we can plan around?** -When does utilisation predictably dip, and can we staff differently?
-5. **What's the financial impact of closing the gap?** -If we improve utilisation by 2, 4, or 7 percentage points, what does the firm gain?
+1. **Where is margin leaking between contract and delivery?** — Which practice areas and engagement types suffer the most from scope creep?
+2. **Where is utilisation falling short, and what's the revenue cost?** — Which consultant levels and practices are driving the gap?
+3. **Which engagements should we expand, reprice, or exit?** — How do we prioritise the portfolio for maximum return?
+4. **Are there seasonal patterns we can plan around?** — When does utilisation predictably dip, and can we staff differently?
+5. **What's the financial impact of closing the gap?** — If we improve utilisation by 2, 4, or 7 percentage points, what does the firm gain?
 
 ---
 
-## 📊 Key Findings
+## 📊 What's Driving Value — and What's Destroying It
 
 ### 1. The Profitability Waterfall — £988K Leaked to Scope Creep
 
@@ -73,7 +75,7 @@ Utilisation drops below **68%** every August and December — this isn't random,
 
 ![Scope Creep](visuals/05_scope_creep.png)
 
-Not all engagement types run equally. **Data Strategy**, **M&A Due Diligence**, and **Regulatory Compliance** projects consistently exceed scope by 11%+. These are complex, discovery-heavy engagements where requirements evolve during delivery.
+Not all engagement types overrun equally. **Data Strategy**, **M&A Due Diligence**, and **Regulatory Compliance** projects consistently exceed scope by 11%+. These are complex, discovery-heavy engagements where requirements evolve during delivery.
 
 In contrast, **Cost Reduction** and **Process Optimisation** projects — which have tightly defined deliverables — overrun far less.
 
@@ -118,6 +120,8 @@ Three utilisation improvement scenarios were modelled across all underutilised c
 | **Target** | → 75% | £4.2M | Requires cross-practice staffing flexibility and pipeline visibility |
 | **Stretch** | → 78% | £6.1M | Needs structural change — skill-based staffing, demand forecasting |
 
+**A note on the stretch target:** While pushing utilisation to 78% maximises short-term revenue, industry evidence suggests that sustained utilisation above ~78% increases consultant burnout and attrition. The cost of replacing a Senior Manager (~1.5× annual salary in recruiting, onboarding, and ramp-up) can easily exceed the marginal revenue gained. The optimal target is not the maximum target — the firm should aim for 75% and treat anything above that as a bonus rather than an expectation.
+
 ### 🏆 Recommended Action Plan
 
 **Phase 1 — Stop the Bleeding (Month 1–3):**
@@ -132,10 +136,68 @@ Three utilisation improvement scenarios were modelled across all underutilised c
 - *Expected impact: 2pp utilisation improvement → £2.8M additional revenue*
 
 **Phase 3 — Structural Improvement (Month 6–12):**
-- Build a demand forecasting model using pipeline and seasonality data
+- Build demand forecasting model using pipeline and seasonality data
 - Introduce skill-based staffing (not just practice-based) to reduce bench time
 - Pilot engagement performance scoring for partner portfolio reviews
 - *Expected impact: Additional 2pp → cumulative £4.2M revenue uplift*
+
+---
+
+## ⚙️ How to Run This Project
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/YOUR-USERNAME/consulting-profitability-analysis.git
+cd consulting-profitability-analysis
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Generate the dataset (creates 3 CSV files in /data)
+python data/generate_dataset.py
+# Expected output:
+#   Consultants generated: 305
+#   Engagements: 480
+#   Utilisation records: 7,320
+#   Firm-wide avg utilisation: 71.3%
+
+# 4. Run the full analysis (generates 8 PNG visualizations in /visuals)
+python notebooks/profitability_analysis.py
+# Expected output:
+#   ✓ Figure 1: Executive Dashboard
+#   ✓ Figure 2: Profitability Waterfall
+#   ...through Figure 8
+```
+
+The SQL queries in `sql/profitability_analysis.sql` are written in PostgreSQL-style syntax and can be executed against any SQL engine after loading the CSVs as tables. They are also readable as standalone analytical documentation.
+
+---
+
+## ✔️ Data Validation
+
+| Check | Expected | Result |
+|:---|:---:|:---:|
+| Total consultants | 305 | ✓ 305 |
+| Total engagements | 480 | ✓ 480 |
+| Monthly utilisation records (305 × 24 months) | 7,320 | ✓ 7,320 |
+| Sum of contracted revenue | £25.76M | ✓ £25,763,078 |
+| Actual margin < Contracted margin (all practices) | True | ✓ Confirmed |
+| Utilisation values within 15–100% | True | ✓ No outliers |
+| Consultant headcount sums to total | 305 | ✓ 49+75+62+54+65 = 305 |
+| No nulls in key columns (ID, revenue, margin) | 0 nulls | ✓ Confirmed |
+
+---
+
+## ⚠️ Key Assumptions
+
+| Assumption | Rationale |
+|:---|:---|
+| Utilisation targets by level based on industry benchmarks | Source: Kennedy Research consulting industry reports; Partner ~45%, Consultant ~85% |
+| Scope overrun assumes linear cost escalation | In practice, overrun cost curves are typically non-linear (convex) — actual erosion may be higher |
+| Client satisfaction scores are simulated | A real firm would use NPS or structured post-engagement feedback |
+| Overhead allocation uses flat % per engagement | Actual overhead in consulting firms is often activity-based |
+| Billing rates are blended averages per practice × level | Individual rate cards vary by client, engagement type, and negotiation |
+| Dataset is synthetic (seed: 2024) | Generated for portfolio purposes — patterns are realistic but not derived from production data |
 
 ---
 
@@ -153,11 +215,11 @@ Three utilisation improvement scenarios were modelled across all underutilised c
 
 The full SQL analysis (`sql/profitability_analysis.sql`) includes 5 production-style queries:
 
-- **Query 1 — Profitability Waterfall:** Multi-CTE pipeline calculating contracted vs actual margin by practice, with `RANK()` window function for leakage ordering and cumulative `SUM() OVER()` for running totals
-- **Query 2 — Utilisation Revenue Opportunity:** Three-layer CTE joining consultant billing rates to monthly utilisation, calculating billable gap hours × rate to quantify the revenue opportunity per practice × level intersection
-- **Query 3 — Engagement Scoring:** `NTILE(100)` percentile scoring across four dimensions (margin, satisfaction, efficiency, revenue), combined into a weighted composite score with `CASE`-based partner action classification
-- **Query 4 — Scope Creep Analysis:** `RANK() OVER (PARTITION BY practice_area)` to identify worst-offending engagement types within each practice, with cumulative erosion tracking
-- **Query 5 — Scenario Modelling:** Three utilisation scenarios (73%, 75%, 78%) calculated directly in SQL with revenue and margin uplift projections by practice area
+- **Query 1 — Profitability Waterfall:** Multi-CTE pipeline calculating contracted vs actual margin by practice, with `RANK()` and cumulative `SUM() OVER()`
+- **Query 2 — Utilisation Revenue Opportunity:** Three-layer CTE joining billing rates to monthly utilisation, quantifying gap hours × rate per practice × level
+- **Query 3 — Engagement Scoring:** `NTILE(100)` percentile scoring across four dimensions with weighted composite and `CASE`-based partner action classification
+- **Query 4 — Scope Creep Analysis:** `RANK() OVER (PARTITION BY practice_area)` for worst-offending engagement types with cumulative erosion tracking
+- **Query 5 — Scenario Modelling:** Three utilisation scenarios (73%, 75%, 78%) with revenue and margin uplift projections
 
 ---
 
@@ -165,15 +227,16 @@ The full SQL analysis (`sql/profitability_analysis.sql`) includes 5 production-s
 
 ```
 ├── README.md
+├── requirements.txt
 ├── data/
 │   ├── meridian_consultants.csv        # 305 consultants with billing rates & levels
 │   ├── meridian_engagements.csv        # 480 engagements with full P&L
 │   ├── meridian_utilisation.csv        # 7,320 monthly utilisation records
-│   └── generate_dataset.py            # Reproducible data generation
+│   └── generate_dataset.py            # Reproducible data generation (seed: 2024)
 ├── notebooks/
 │   └── profitability_analysis.py       # Full Python analysis pipeline (8 figures)
 ├── sql/
-│   └── profitability_analysis.sql      # 5 analytical SQL queries
+│   └── profitability_analysis.sql      # 5 analytical SQL queries (CTEs + Window Functions)
 └── visuals/
     ├── 01_executive_dashboard.png
     ├── 02_profitability_waterfall.png
@@ -191,22 +254,16 @@ The full SQL analysis (`sql/profitability_analysis.sql`) includes 5 production-s
 
 **If given more time and data, I would:**
 
-1. **Integrate actual project timesheets** — The current utilisation model uses monthly aggregates. Weekly or daily timesheet data would enable more precise bench-time analysis and faster intervention triggers.
-2. **Build a demand forecasting model** — Using pipeline data (proposals in progress, signed LOIs, seasonal patterns) to predict utilisation 60–90 days out, enabling proactive staffing rather than reactive bench management.
-3. **Add client-level profitability analysis** — Some clients may be systematically unprofitable across multiple engagements. A client P&L view would inform account strategy and pricing decisions.
-4. **Develop a real-time engagement health dashboard** — Combining scope tracking, margin monitoring, and satisfaction signals into a single Power BI dashboard refreshed weekly for partner reviews.
-5. **Model the cost of attrition** — Underutilised consultants leave. Adding a retention risk layer would quantify the hidden cost of the utilisation gap beyond lost billable hours — including recruitment, training, and knowledge drain.
-
-**Known data limitations:**
-- Dataset is synthetic (generated for portfolio purposes) — patterns are realistic but not derived from production data
-- Utilisation targets by level are estimated from industry benchmarks (Source Consulting Group, Kennedy Research)
-- Scope overrun calculations assume linear cost escalation; in practice, overrun cost curves are typically non-linear
-- Client satisfaction scores are modelled, not surveyed — a real firm would use NPS or structured feedback
+1. **Integrate actual project timesheets** — Weekly or daily data would enable more precise bench-time analysis and faster intervention triggers.
+2. **Build a demand forecasting model** — Using pipeline data to predict utilisation 60–90 days out, enabling proactive staffing.
+3. **Add client-level profitability analysis** — Some clients may be systematically unprofitable across multiple engagements.
+4. **Develop a real-time engagement health dashboard** — Combining scope tracking, margin monitoring, and satisfaction signals into a Power BI dashboard for partner reviews.
+5. **Model the cost of attrition** — Quantifying the hidden cost of the utilisation gap beyond lost billable hours.
 
 ---
 
 ## 👤 About
 
-Built by **Hrituparna das ** — aspiring data analyst targeting consulting and financial services. This project demonstrates how data analysis translates directly into partner-level strategic decisions, not just operational reporting.
+Built by **Hrituparna Das** — aspiring data analyst targeting consulting and financial services. This project demonstrates how data analysis translates directly into partner-level strategic decisions, not just operational reporting.
 
-📫 [hrituparna19@gmail.com] · 🔗 [LinkedIn] · 💻 [Portfolio]
+📫 [Your Email] · 🔗 [LinkedIn] · 💻 [Portfolio]
