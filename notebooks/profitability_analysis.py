@@ -4,7 +4,7 @@ MERIDIAN & PARTNERS — Engagement Profitability & Utilisation Analysis
 Full analytical pipeline: profitability waterfall, utilisation gap analysis,
 partner decision matrix, scope creep impact, and scenario modelling.
 
-Author: [Your Name]
+Author: Hrituparna Das
 Tools: Python (pandas, matplotlib, seaborn), SQL, Power BI
 """
 
