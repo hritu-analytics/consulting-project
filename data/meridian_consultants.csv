@@ -1,0 +1,306 @@
+consultant_id,practice_area,level,region,billing_rate_gbp,cost_rate_gbp,utilisation_target,years_at_firm
+MP-0001,Strategy & Growth,Partner,Edinburgh,499.0,257.0,0.45,6
+MP-0002,Strategy & Growth,Partner,London,518.0,245.0,0.45,10
+MP-0003,Strategy & Growth,Partner,Manchester,508.0,250.0,0.45,11
+MP-0004,Strategy & Growth,Partner,Edinburgh,514.0,253.0,0.45,9
+MP-0005,Strategy & Growth,Director,Manchester,424.0,193.0,0.55,10
+MP-0006,Strategy & Growth,Director,London,401.0,194.0,0.55,10
+MP-0007,Strategy & Growth,Director,Birmingham,380.0,212.0,0.55,6
+MP-0008,Strategy & Growth,Director,London,400.0,212.0,0.55,7
+MP-0009,Strategy & Growth,Director,Bristol,427.0,197.0,0.55,10
+MP-0010,Strategy & Growth,Director,Manchester,407.0,189.0,0.55,5
+MP-0011,Strategy & Growth,Senior Manager,Edinburgh,342.0,158.0,0.65,13
+MP-0012,Strategy & Growth,Senior Manager,London,363.0,198.0,0.65,14
+MP-0013,Strategy & Growth,Senior Manager,London,355.0,168.0,0.65,12
+MP-0014,Strategy & Growth,Senior Manager,Edinburgh,343.0,166.0,0.65,8
+MP-0015,Strategy & Growth,Senior Manager,Birmingham,343.0,153.0,0.65,11
+MP-0016,Strategy & Growth,Senior Manager,London,330.0,190.0,0.65,8
+MP-0017,Strategy & Growth,Senior Manager,London,360.0,174.0,0.65,9
+MP-0018,Strategy & Growth,Manager,Manchester,304.0,128.0,0.75,3
+MP-0019,Strategy & Growth,Manager,Edinburgh,275.0,132.0,0.75,4
+MP-0020,Strategy & Growth,Manager,Birmingham,273.0,118.0,0.75,7
+MP-0021,Strategy & Growth,Manager,Birmingham,271.0,128.0,0.75,7
+MP-0022,Strategy & Growth,Manager,Bristol,310.0,141.0,0.75,3
+MP-0023,Strategy & Growth,Manager,Manchester,292.0,121.0,0.75,5
+MP-0024,Strategy & Growth,Manager,Edinburgh,281.0,123.0,0.75,9
+MP-0025,Strategy & Growth,Manager,Bristol,276.0,144.0,0.75,4
+MP-0026,Strategy & Growth,Manager,London,294.0,141.0,0.75,10
+MP-0027,Strategy & Growth,Manager,Edinburgh,267.0,126.0,0.75,14
+MP-0028,Strategy & Growth,Senior Consultant,London,202.0,92.0,0.8,13
+MP-0029,Strategy & Growth,Senior Consultant,London,227.0,89.0,0.8,11
+MP-0030,Strategy & Growth,Senior Consultant,Bristol,229.0,88.0,0.8,2
+MP-0031,Strategy & Growth,Senior Consultant,Bristol,250.0,93.0,0.8,4
+MP-0032,Strategy & Growth,Senior Consultant,Edinburgh,247.0,89.0,0.8,4
+MP-0033,Strategy & Growth,Senior Consultant,London,224.0,112.0,0.8,5
+MP-0034,Strategy & Growth,Senior Consultant,London,228.0,101.0,0.8,2
+MP-0035,Strategy & Growth,Senior Consultant,Manchester,193.0,91.0,0.8,7
+MP-0036,Strategy & Growth,Senior Consultant,London,252.0,114.0,0.8,7
+MP-0037,Strategy & Growth,Senior Consultant,Edinburgh,195.0,102.0,0.8,2
+MP-0038,Strategy & Growth,Senior Consultant,Birmingham,227.0,113.0,0.8,13
+MP-0039,Strategy & Growth,Consultant,Edinburgh,182.0,91.0,0.85,9
+MP-0040,Strategy & Growth,Consultant,Bristol,168.0,70.0,0.85,7
+MP-0041,Strategy & Growth,Consultant,Manchester,158.0,84.0,0.85,4
+MP-0042,Strategy & Growth,Consultant,Bristol,160.0,89.0,0.85,2
+MP-0043,Strategy & Growth,Consultant,London,167.0,87.0,0.85,7
+MP-0044,Strategy & Growth,Consultant,London,174.0,85.0,0.85,1
+MP-0045,Strategy & Growth,Consultant,Manchester,135.0,46.0,0.85,6
+MP-0046,Strategy & Growth,Consultant,Bristol,187.0,60.0,0.85,23
+MP-0047,Strategy & Growth,Consultant,Birmingham,158.0,74.0,0.85,6
+MP-0048,Strategy & Growth,Consultant,Birmingham,157.0,71.0,0.85,9
+MP-0049,Strategy & Growth,Consultant,London,181.0,66.0,0.85,11
+MP-0050,Technology & Digital,Partner,London,480.0,225.0,0.45,8
+MP-0051,Technology & Digital,Partner,Edinburgh,439.0,228.0,0.45,10
+MP-0052,Technology & Digital,Partner,Edinburgh,435.0,218.0,0.45,8
+MP-0053,Technology & Digital,Partner,Edinburgh,478.0,230.0,0.45,11
+MP-0054,Technology & Digital,Partner,Birmingham,463.0,207.0,0.45,8
+MP-0055,Technology & Digital,Partner,London,450.0,240.0,0.45,10
+MP-0056,Technology & Digital,Director,London,374.0,189.0,0.55,6
+MP-0057,Technology & Digital,Director,Manchester,387.0,175.0,0.55,7
+MP-0058,Technology & Digital,Director,Bristol,354.0,178.0,0.55,6
+MP-0059,Technology & Digital,Director,Edinburgh,361.0,176.0,0.55,5
+MP-0060,Technology & Digital,Director,London,362.0,194.0,0.55,6
+MP-0061,Technology & Digital,Director,London,387.0,171.0,0.55,5
+MP-0062,Technology & Digital,Director,Birmingham,382.0,178.0,0.55,9
+MP-0063,Technology & Digital,Director,Manchester,368.0,170.0,0.55,5
+MP-0064,Technology & Digital,Director,Edinburgh,371.0,189.0,0.55,5
+MP-0065,Technology & Digital,Senior Manager,London,329.0,157.0,0.65,6
+MP-0066,Technology & Digital,Senior Manager,London,312.0,172.0,0.65,4
+MP-0067,Technology & Digital,Senior Manager,Edinburgh,297.0,183.0,0.65,5
+MP-0068,Technology & Digital,Senior Manager,London,312.0,142.0,0.65,11
+MP-0069,Technology & Digital,Senior Manager,London,298.0,157.0,0.65,12
+MP-0070,Technology & Digital,Senior Manager,Birmingham,309.0,161.0,0.65,4
+MP-0071,Technology & Digital,Senior Manager,Manchester,318.0,160.0,0.65,5
+MP-0072,Technology & Digital,Senior Manager,Edinburgh,308.0,145.0,0.65,4
+MP-0073,Technology & Digital,Senior Manager,Manchester,328.0,161.0,0.65,4
+MP-0074,Technology & Digital,Senior Manager,Edinburgh,290.0,159.0,0.65,5
+MP-0075,Technology & Digital,Senior Manager,London,295.0,157.0,0.65,10
+MP-0076,Technology & Digital,Manager,London,247.0,127.0,0.75,5
+MP-0077,Technology & Digital,Manager,Edinburgh,255.0,128.0,0.75,4
+MP-0078,Technology & Digital,Manager,Edinburgh,260.0,114.0,0.75,4
+MP-0079,Technology & Digital,Manager,Bristol,259.0,98.0,0.75,5
+MP-0080,Technology & Digital,Manager,London,281.0,114.0,0.75,8
+MP-0081,Technology & Digital,Manager,London,287.0,124.0,0.75,5
+MP-0082,Technology & Digital,Manager,London,244.0,131.0,0.75,5
+MP-0083,Technology & Digital,Manager,Edinburgh,290.0,123.0,0.75,18
+MP-0084,Technology & Digital,Manager,London,255.0,116.0,0.75,6
+MP-0085,Technology & Digital,Manager,Manchester,260.0,128.0,0.75,3
+MP-0086,Technology & Digital,Manager,London,259.0,128.0,0.75,7
+MP-0087,Technology & Digital,Manager,Edinburgh,275.0,112.0,0.75,4
+MP-0088,Technology & Digital,Manager,Birmingham,248.0,120.0,0.75,5
+MP-0089,Technology & Digital,Manager,London,258.0,132.0,0.75,3
+MP-0090,Technology & Digital,Manager,Manchester,284.0,109.0,0.75,18
+MP-0091,Technology & Digital,Senior Consultant,Manchester,223.0,98.0,0.8,13
+MP-0092,Technology & Digital,Senior Consultant,London,188.0,93.0,0.8,2
+MP-0093,Technology & Digital,Senior Consultant,Birmingham,220.0,104.0,0.8,5
+MP-0094,Technology & Digital,Senior Consultant,Bristol,195.0,77.0,0.8,7
+MP-0095,Technology & Digital,Senior Consultant,London,233.0,95.0,0.8,4
+MP-0096,Technology & Digital,Senior Consultant,London,183.0,77.0,0.8,2
+MP-0097,Technology & Digital,Senior Consultant,London,234.0,98.0,0.8,4
+MP-0098,Technology & Digital,Senior Consultant,Manchester,207.0,94.0,0.8,4
+MP-0099,Technology & Digital,Senior Consultant,Manchester,227.0,102.0,0.8,4
+MP-0100,Technology & Digital,Senior Consultant,Birmingham,211.0,105.0,0.8,3
+MP-0101,Technology & Digital,Senior Consultant,Edinburgh,221.0,92.0,0.8,5
+MP-0102,Technology & Digital,Senior Consultant,Birmingham,188.0,93.0,0.8,5
+MP-0103,Technology & Digital,Senior Consultant,Manchester,212.0,101.0,0.8,4
+MP-0104,Technology & Digital,Senior Consultant,Manchester,202.0,101.0,0.8,8
+MP-0105,Technology & Digital,Senior Consultant,Manchester,181.0,87.0,0.8,5
+MP-0106,Technology & Digital,Senior Consultant,Bristol,195.0,91.0,0.8,2
+MP-0107,Technology & Digital,Senior Consultant,Manchester,202.0,82.0,0.8,12
+MP-0108,Technology & Digital,Consultant,Manchester,147.0,77.0,0.85,11
+MP-0109,Technology & Digital,Consultant,London,165.0,76.0,0.85,6
+MP-0110,Technology & Digital,Consultant,Manchester,165.0,52.0,0.85,1
+MP-0111,Technology & Digital,Consultant,Birmingham,180.0,79.0,0.85,7
+MP-0112,Technology & Digital,Consultant,Bristol,146.0,81.0,0.85,5
+MP-0113,Technology & Digital,Consultant,London,158.0,44.0,0.85,4
+MP-0114,Technology & Digital,Consultant,London,125.0,59.0,0.85,1
+MP-0115,Technology & Digital,Consultant,London,163.0,57.0,0.85,4
+MP-0116,Technology & Digital,Consultant,Manchester,149.0,62.0,0.85,15
+MP-0117,Technology & Digital,Consultant,London,159.0,74.0,0.85,3
+MP-0118,Technology & Digital,Consultant,Bristol,156.0,85.0,0.85,12
+MP-0119,Technology & Digital,Consultant,Bristol,136.0,61.0,0.85,1
+MP-0120,Technology & Digital,Consultant,Birmingham,167.0,68.0,0.85,3
+MP-0121,Technology & Digital,Consultant,London,154.0,75.0,0.85,6
+MP-0122,Technology & Digital,Consultant,London,180.0,55.0,0.85,2
+MP-0123,Technology & Digital,Consultant,Birmingham,132.0,73.0,0.85,3
+MP-0124,Technology & Digital,Consultant,Edinburgh,144.0,62.0,0.85,2
+MP-0125,Operations & Supply Chain,Partner,London,437.0,221.0,0.45,6
+MP-0126,Operations & Supply Chain,Partner,Manchester,419.0,224.0,0.45,7
+MP-0127,Operations & Supply Chain,Partner,Edinburgh,425.0,216.0,0.45,8
+MP-0128,Operations & Supply Chain,Partner,Birmingham,402.0,214.0,0.45,6
+MP-0129,Operations & Supply Chain,Partner,London,438.0,211.0,0.45,6
+MP-0130,Operations & Supply Chain,Director,Edinburgh,333.0,178.0,0.55,5
+MP-0131,Operations & Supply Chain,Director,Manchester,355.0,170.0,0.55,6
+MP-0132,Operations & Supply Chain,Director,Manchester,369.0,156.0,0.55,11
+MP-0133,Operations & Supply Chain,Director,Birmingham,328.0,169.0,0.55,7
+MP-0134,Operations & Supply Chain,Director,London,397.0,185.0,0.55,7
+MP-0135,Operations & Supply Chain,Director,London,330.0,171.0,0.55,8
+MP-0136,Operations & Supply Chain,Director,Manchester,364.0,173.0,0.55,10
+MP-0137,Operations & Supply Chain,Senior Manager,Manchester,288.0,151.0,0.65,5
+MP-0138,Operations & Supply Chain,Senior Manager,Birmingham,261.0,147.0,0.65,4
+MP-0139,Operations & Supply Chain,Senior Manager,Edinburgh,279.0,157.0,0.65,7
+MP-0140,Operations & Supply Chain,Senior Manager,Birmingham,315.0,133.0,0.65,8
+MP-0141,Operations & Supply Chain,Senior Manager,Manchester,286.0,142.0,0.65,6
+MP-0142,Operations & Supply Chain,Senior Manager,Birmingham,281.0,149.0,0.65,5
+MP-0143,Operations & Supply Chain,Senior Manager,London,297.0,134.0,0.65,5
+MP-0144,Operations & Supply Chain,Senior Manager,Edinburgh,274.0,151.0,0.65,6
+MP-0145,Operations & Supply Chain,Senior Manager,Manchester,286.0,148.0,0.65,4
+MP-0146,Operations & Supply Chain,Manager,Birmingham,235.0,108.0,0.75,9
+MP-0147,Operations & Supply Chain,Manager,Manchester,258.0,118.0,0.75,8
+MP-0148,Operations & Supply Chain,Manager,Edinburgh,237.0,95.0,0.75,17
+MP-0149,Operations & Supply Chain,Manager,Edinburgh,219.0,132.0,0.75,8
+MP-0150,Operations & Supply Chain,Manager,Manchester,232.0,122.0,0.75,11
+MP-0151,Operations & Supply Chain,Manager,Edinburgh,257.0,118.0,0.75,4
+MP-0152,Operations & Supply Chain,Manager,London,232.0,105.0,0.75,7
+MP-0153,Operations & Supply Chain,Manager,Manchester,258.0,112.0,0.75,5
+MP-0154,Operations & Supply Chain,Manager,Manchester,235.0,104.0,0.75,6
+MP-0155,Operations & Supply Chain,Manager,London,228.0,126.0,0.75,4
+MP-0156,Operations & Supply Chain,Manager,London,263.0,114.0,0.75,5
+MP-0157,Operations & Supply Chain,Manager,Edinburgh,244.0,115.0,0.75,16
+MP-0158,Operations & Supply Chain,Manager,Birmingham,237.0,106.0,0.75,3
+MP-0159,Operations & Supply Chain,Senior Consultant,London,195.0,103.0,0.8,6
+MP-0160,Operations & Supply Chain,Senior Consultant,Bristol,201.0,66.0,0.8,11
+MP-0161,Operations & Supply Chain,Senior Consultant,Birmingham,188.0,81.0,0.8,4
+MP-0162,Operations & Supply Chain,Senior Consultant,Edinburgh,197.0,87.0,0.8,8
+MP-0163,Operations & Supply Chain,Senior Consultant,London,210.0,90.0,0.8,7
+MP-0164,Operations & Supply Chain,Senior Consultant,Birmingham,201.0,82.0,0.8,6
+MP-0165,Operations & Supply Chain,Senior Consultant,London,203.0,88.0,0.8,12
+MP-0166,Operations & Supply Chain,Senior Consultant,London,173.0,78.0,0.8,6
+MP-0167,Operations & Supply Chain,Senior Consultant,Manchester,188.0,80.0,0.8,2
+MP-0168,Operations & Supply Chain,Senior Consultant,Manchester,178.0,91.0,0.8,9
+MP-0169,Operations & Supply Chain,Senior Consultant,London,194.0,93.0,0.8,5
+MP-0170,Operations & Supply Chain,Senior Consultant,London,180.0,91.0,0.8,2
+MP-0171,Operations & Supply Chain,Senior Consultant,Edinburgh,200.0,83.0,0.8,5
+MP-0172,Operations & Supply Chain,Senior Consultant,London,187.0,98.0,0.8,3
+MP-0173,Operations & Supply Chain,Consultant,London,179.0,59.0,0.85,3
+MP-0174,Operations & Supply Chain,Consultant,Manchester,147.0,78.0,0.85,4
+MP-0175,Operations & Supply Chain,Consultant,London,143.0,74.0,0.85,5
+MP-0176,Operations & Supply Chain,Consultant,Bristol,139.0,66.0,0.85,3
+MP-0177,Operations & Supply Chain,Consultant,Edinburgh,136.0,53.0,0.85,4
+MP-0178,Operations & Supply Chain,Consultant,London,141.0,56.0,0.85,1
+MP-0179,Operations & Supply Chain,Consultant,London,137.0,48.0,0.85,3
+MP-0180,Operations & Supply Chain,Consultant,Edinburgh,160.0,55.0,0.85,3
+MP-0181,Operations & Supply Chain,Consultant,Edinburgh,133.0,58.0,0.85,11
+MP-0182,Operations & Supply Chain,Consultant,London,129.0,81.0,0.85,2
+MP-0183,Operations & Supply Chain,Consultant,London,124.0,59.0,0.85,11
+MP-0184,Operations & Supply Chain,Consultant,Bristol,126.0,77.0,0.85,6
+MP-0185,Operations & Supply Chain,Consultant,Birmingham,139.0,65.0,0.85,4
+MP-0186,Operations & Supply Chain,Consultant,Birmingham,126.0,57.0,0.85,14
+MP-0187,Financial Advisory,Partner,London,491.0,253.0,0.45,14
+MP-0188,Financial Advisory,Partner,London,486.0,231.0,0.45,11
+MP-0189,Financial Advisory,Partner,Manchester,475.0,240.0,0.45,11
+MP-0190,Financial Advisory,Partner,Birmingham,474.0,243.0,0.45,15
+MP-0191,Financial Advisory,Director,London,386.0,219.0,0.55,6
+MP-0192,Financial Advisory,Director,Edinburgh,390.0,194.0,0.55,5
+MP-0193,Financial Advisory,Director,Birmingham,398.0,199.0,0.55,14
+MP-0194,Financial Advisory,Director,Manchester,414.0,192.0,0.55,5
+MP-0195,Financial Advisory,Director,Manchester,410.0,205.0,0.55,19
+MP-0196,Financial Advisory,Director,London,404.0,181.0,0.55,11
+MP-0197,Financial Advisory,Senior Manager,London,337.0,166.0,0.65,4
+MP-0198,Financial Advisory,Senior Manager,Birmingham,347.0,151.0,0.65,11
+MP-0199,Financial Advisory,Senior Manager,Manchester,306.0,191.0,0.65,15
+MP-0200,Financial Advisory,Senior Manager,London,333.0,155.0,0.65,12
+MP-0201,Financial Advisory,Senior Manager,Birmingham,311.0,169.0,0.65,4
+MP-0202,Financial Advisory,Senior Manager,Manchester,382.0,160.0,0.65,9
+MP-0203,Financial Advisory,Senior Manager,Bristol,365.0,187.0,0.65,16
+MP-0204,Financial Advisory,Senior Manager,Bristol,322.0,169.0,0.65,12
+MP-0205,Financial Advisory,Manager,London,268.0,118.0,0.75,3
+MP-0206,Financial Advisory,Manager,Bristol,279.0,113.0,0.75,8
+MP-0207,Financial Advisory,Manager,Bristol,292.0,123.0,0.75,12
+MP-0208,Financial Advisory,Manager,Edinburgh,277.0,132.0,0.75,5
+MP-0209,Financial Advisory,Manager,Manchester,285.0,130.0,0.75,5
+MP-0210,Financial Advisory,Manager,Edinburgh,279.0,119.0,0.75,6
+MP-0211,Financial Advisory,Manager,London,282.0,133.0,0.75,5
+MP-0212,Financial Advisory,Manager,London,273.0,142.0,0.75,4
+MP-0213,Financial Advisory,Manager,London,288.0,136.0,0.75,5
+MP-0214,Financial Advisory,Manager,Manchester,258.0,136.0,0.75,4
+MP-0215,Financial Advisory,Manager,London,263.0,106.0,0.75,5
+MP-0216,Financial Advisory,Senior Consultant,Edinburgh,226.0,85.0,0.8,5
+MP-0217,Financial Advisory,Senior Consultant,London,215.0,102.0,0.8,5
+MP-0218,Financial Advisory,Senior Consultant,Birmingham,235.0,117.0,0.8,12
+MP-0219,Financial Advisory,Senior Consultant,Bristol,217.0,80.0,0.8,10
+MP-0220,Financial Advisory,Senior Consultant,London,236.0,95.0,0.8,2
+MP-0221,Financial Advisory,Senior Consultant,Manchester,225.0,85.0,0.8,2
+MP-0222,Financial Advisory,Senior Consultant,Manchester,211.0,114.0,0.8,11
+MP-0223,Financial Advisory,Senior Consultant,Edinburgh,232.0,86.0,0.8,3
+MP-0224,Financial Advisory,Senior Consultant,London,213.0,96.0,0.8,4
+MP-0225,Financial Advisory,Senior Consultant,Bristol,222.0,98.0,0.8,9
+MP-0226,Financial Advisory,Senior Consultant,Manchester,229.0,105.0,0.8,2
+MP-0227,Financial Advisory,Senior Consultant,Manchester,194.0,93.0,0.8,8
+MP-0228,Financial Advisory,Consultant,London,161.0,58.0,0.85,5
+MP-0229,Financial Advisory,Consultant,Edinburgh,171.0,84.0,0.85,4
+MP-0230,Financial Advisory,Consultant,Manchester,164.0,77.0,0.85,5
+MP-0231,Financial Advisory,Consultant,Manchester,161.0,83.0,0.85,9
+MP-0232,Financial Advisory,Consultant,Edinburgh,194.0,67.0,0.85,3
+MP-0233,Financial Advisory,Consultant,London,141.0,51.0,0.85,9
+MP-0234,Financial Advisory,Consultant,Edinburgh,176.0,88.0,0.85,9
+MP-0235,Financial Advisory,Consultant,London,163.0,78.0,0.85,1
+MP-0236,Financial Advisory,Consultant,Edinburgh,164.0,77.0,0.85,4
+MP-0237,Financial Advisory,Consultant,London,148.0,79.0,0.85,9
+MP-0238,Financial Advisory,Consultant,Manchester,167.0,77.0,0.85,13
+MP-0239,Financial Advisory,Consultant,Manchester,183.0,89.0,0.85,2
+MP-0240,Financial Advisory,Consultant,Edinburgh,167.0,81.0,0.85,9
+MP-0241,People & Organisation,Partner,London,395.0,197.0,0.45,6
+MP-0242,People & Organisation,Partner,Birmingham,430.0,198.0,0.45,13
+MP-0243,People & Organisation,Partner,Birmingham,421.0,217.0,0.45,15
+MP-0244,People & Organisation,Partner,Bristol,407.0,208.0,0.45,20
+MP-0245,People & Organisation,Partner,Birmingham,427.0,204.0,0.45,6
+MP-0246,People & Organisation,Director,Bristol,355.0,162.0,0.55,6
+MP-0247,People & Organisation,Director,Edinburgh,313.0,161.0,0.55,6
+MP-0248,People & Organisation,Director,London,337.0,176.0,0.55,11
+MP-0249,People & Organisation,Director,Manchester,340.0,175.0,0.55,6
+MP-0250,People & Organisation,Director,London,324.0,160.0,0.55,5
+MP-0251,People & Organisation,Director,Edinburgh,326.0,168.0,0.55,9
+MP-0252,People & Organisation,Director,London,346.0,152.0,0.55,6
+MP-0253,People & Organisation,Director,Bristol,341.0,183.0,0.55,5
+MP-0254,People & Organisation,Senior Manager,Edinburgh,262.0,138.0,0.65,5
+MP-0255,People & Organisation,Senior Manager,London,283.0,148.0,0.65,5
+MP-0256,People & Organisation,Senior Manager,Birmingham,284.0,134.0,0.65,10
+MP-0257,People & Organisation,Senior Manager,Manchester,276.0,155.0,0.65,13
+MP-0258,People & Organisation,Senior Manager,Manchester,268.0,149.0,0.65,5
+MP-0259,People & Organisation,Senior Manager,Birmingham,272.0,128.0,0.65,9
+MP-0260,People & Organisation,Senior Manager,London,267.0,141.0,0.65,12
+MP-0261,People & Organisation,Senior Manager,Manchester,262.0,143.0,0.65,6
+MP-0262,People & Organisation,Senior Manager,Manchester,304.0,142.0,0.65,4
+MP-0263,People & Organisation,Senior Manager,Edinburgh,297.0,150.0,0.65,9
+MP-0264,People & Organisation,Manager,Manchester,238.0,113.0,0.75,4
+MP-0265,People & Organisation,Manager,London,253.0,98.0,0.75,6
+MP-0266,People & Organisation,Manager,Manchester,230.0,101.0,0.75,3
+MP-0267,People & Organisation,Manager,London,241.0,98.0,0.75,3
+MP-0268,People & Organisation,Manager,London,225.0,91.0,0.75,7
+MP-0269,People & Organisation,Manager,Manchester,234.0,98.0,0.75,6
+MP-0270,People & Organisation,Manager,London,208.0,112.0,0.75,3
+MP-0271,People & Organisation,Manager,Manchester,215.0,114.0,0.75,6
+MP-0272,People & Organisation,Manager,Manchester,238.0,120.0,0.75,12
+MP-0273,People & Organisation,Manager,London,223.0,114.0,0.75,4
+MP-0274,People & Organisation,Manager,Bristol,249.0,83.0,0.75,9
+MP-0275,People & Organisation,Manager,Bristol,215.0,111.0,0.75,4
+MP-0276,People & Organisation,Manager,Manchester,256.0,115.0,0.75,10
+MP-0277,People & Organisation,Senior Consultant,Edinburgh,165.0,92.0,0.8,2
+MP-0278,People & Organisation,Senior Consultant,Birmingham,198.0,77.0,0.8,7
+MP-0279,People & Organisation,Senior Consultant,Birmingham,173.0,68.0,0.8,7
+MP-0280,People & Organisation,Senior Consultant,London,173.0,74.0,0.8,2
+MP-0281,People & Organisation,Senior Consultant,Birmingham,203.0,79.0,0.8,6
+MP-0282,People & Organisation,Senior Consultant,Bristol,172.0,88.0,0.8,2
+MP-0283,People & Organisation,Senior Consultant,Manchester,169.0,60.0,0.8,4
+MP-0284,People & Organisation,Senior Consultant,Birmingham,181.0,90.0,0.8,2
+MP-0285,People & Organisation,Senior Consultant,London,186.0,104.0,0.8,11
+MP-0286,People & Organisation,Senior Consultant,London,188.0,83.0,0.8,6
+MP-0287,People & Organisation,Senior Consultant,Edinburgh,196.0,76.0,0.8,6
+MP-0288,People & Organisation,Senior Consultant,London,201.0,81.0,0.8,4
+MP-0289,People & Organisation,Senior Consultant,Manchester,184.0,80.0,0.8,3
+MP-0290,People & Organisation,Senior Consultant,London,166.0,79.0,0.8,2
+MP-0291,People & Organisation,Consultant,London,126.0,52.0,0.85,1
+MP-0292,People & Organisation,Consultant,Manchester,143.0,53.0,0.85,3
+MP-0293,People & Organisation,Consultant,Manchester,146.0,60.0,0.85,1
+MP-0294,People & Organisation,Consultant,Manchester,182.0,59.0,0.85,2
+MP-0295,People & Organisation,Consultant,London,149.0,60.0,0.85,2
+MP-0296,People & Organisation,Consultant,Manchester,139.0,63.0,0.85,3
+MP-0297,People & Organisation,Consultant,Manchester,130.0,44.0,0.85,2
+MP-0298,People & Organisation,Consultant,Manchester,132.0,59.0,0.85,8
+MP-0299,People & Organisation,Consultant,Bristol,134.0,64.0,0.85,2
+MP-0300,People & Organisation,Consultant,Bristol,127.0,57.0,0.85,1
+MP-0301,People & Organisation,Consultant,Manchester,122.0,51.0,0.85,4
+MP-0302,People & Organisation,Consultant,Manchester,145.0,70.0,0.85,2
+MP-0303,People & Organisation,Consultant,Birmingham,114.0,59.0,0.85,6
+MP-0304,People & Organisation,Consultant,Manchester,159.0,57.0,0.85,2
+MP-0305,People & Organisation,Consultant,London,154.0,52.0,0.85,4
