@@ -1,6 +1,6 @@
 -- ============================================================================
 -- MERIDIAN & PARTNERS: ENGAGEMENT PROFITABILITY & UTILISATION ANALYSIS
--- SQL Analysis Layer | Author: [Your Name]
+-- SQL Analysis Layer | Hrituparna Das
 -- ============================================================================
 -- Tools: PostgreSQL-style syntax
 -- Key techniques: CTEs, Window Functions, Profitability Waterfall, Scenario Analysis
