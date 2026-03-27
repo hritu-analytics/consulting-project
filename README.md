@@ -1,4 +1,4 @@
-# 📊 Consulting Engagement Profitability & Utilisation Analysis — Meridian & Partners
+# 📊 Consulting Engagement Profitability & Utilisation Analysis: Meridian & Partners
 
 ### Profitability Waterfall · Utilisation Gap Analysis · Partner Decision Matrix · Scenario Modelling
 
