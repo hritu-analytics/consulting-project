@@ -3,9 +3,7 @@
 ### Profitability Waterfall · Utilisation Gap Analysis · Partner Decision Matrix · Scenario Modelling
 
 > **This project identifies £4.2M in unrealised revenue and £988K in margin leakage within a mid-size consulting firm and outlines exactly how to recover it.**
-> > **Note:** Dataset is synthetically generated for portfolio purposes — 
-> patterns are realistic but not derived from production data. 
-> See [Key Assumptions](#key-assumptions).
+**Note:** The dataset is synthetically generated for portfolio purposes. Patterns are realistic but not derived from production data. See the Key Assumptions section below.
 
 ![Executive Dashboard](visuals/01_executive_dashboard.png)
 
