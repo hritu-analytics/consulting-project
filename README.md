@@ -35,7 +35,7 @@ The firm's Management Committee needs answers to five questions:
 
 ---
 
-## 📊 What's Driving Value — and What's Destroying It
+## 📊 What's Driving Value and What's Destroying It
 
 ### 1. The Profitability Waterfall — £988K Leaked to Scope Creep
 
@@ -43,19 +43,19 @@ The firm's Management Committee needs answers to five questions:
 
 Every practice area loses margin between what's contracted and what's delivered. **Strategy & Growth** loses the most in absolute terms (−£280K), while **Financial Advisory** has the highest percentage erosion relative to its contracted margin.
 
-The root cause is consistent: **scope overrun averaging 9.6% across the firm.** Engagements are being scoped at one size and delivered at another — and the client isn't paying for the difference.
+The root cause is consistent: **scope overrun averaging 9.6% across the firm.** Engagements are being scoped at one size and delivered at another  and the client isn't paying for the difference.
 
 **Business implication:** The firm needs a scope management intervention, not a pricing increase. The margins are healthy when the work stays within scope.
 
 ---
 
-### 2. The Utilisation Gap — £4.2M Revenue Sitting on the Bench
+### 2. The Utilisation Gap - £4.2M Revenue Sitting on the Bench
 
 ![Utilisation Gap](visuals/03_utilisation_gap.png)
 
 The firm-wide utilisation of **71.3%** masks significant variation by level:
 - **Consultants** and **Senior Consultants** operate near target (83% and 79%)
-- **Senior Managers** and **Directors** carry the biggest absolute gap — these are expensive resources billing at £280–£380/hr sitting underutilised
+- **Senior Managers** and **Directors** carry the biggest absolute gap — these are expensive resources billing at £280–£380/hr, sitting underutilised
 - **Partners** are intentionally lower (business development, client relationships) — their gap is structural, not a problem
 
 **The revenue opportunity is concentrated in mid-to-senior levels.** A Director billing at £350/hr who moves from 54% to 60% utilisation generates an additional £35K annually — multiply across 36 Directors and the numbers compound quickly.
@@ -76,7 +76,7 @@ Utilisation drops below **68%** every August and December — this isn't random,
 
 ![Scope Creep](visuals/05_scope_creep.png)
 
-Not all engagement types overrun equally. **Data Strategy**, **M&A Due Diligence**, and **Regulatory Compliance** projects consistently exceed scope by 11%+. These are complex, discovery-heavy engagements where requirements evolve during delivery.
+Not all engagement types run equally. **Data Strategy**, **M&A Due Diligence**, and **Regulatory Compliance** projects consistently exceed scope by 11%+. These are complex, discovery-heavy engagements where requirements evolve during delivery.
 
 In contrast, **Cost Reduction** and **Process Optimisation** projects — which have tightly defined deliverables — overrun far less.
 
