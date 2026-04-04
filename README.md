@@ -266,4 +266,4 @@ The full SQL analysis (`sql/profitability_analysis.sql`) includes 5 production-s
 
 Built by **Hrituparna Das** — aspiring data analyst targeting consulting and financial services. This project demonstrates how data analysis translates directly into partner-level strategic decisions, not just operational reporting.
 
-📫 [Your Email] · 🔗 [LinkedIn] · 💻 [Portfolio]
+📫 hrituparna19@gmail.com · 🔗 https://www.linkedin.com/in/hrituparna-das-01927425b/ 
