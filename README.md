@@ -2,7 +2,10 @@
 
 ### Profitability Waterfall · Utilisation Gap Analysis · Partner Decision Matrix · Scenario Modelling
 
-> **This project identifies £4.2M in unrealised revenue and £988K in margin leakage within a mid-size consulting firm — and outlines exactly how to recover it.**
+> **This project identifies £4.2M in unrealised revenue and £988K in margin leakage within a mid-size consulting firm and outlines exactly how to recover it.**
+> > **Note:** Dataset is synthetically generated for portfolio purposes — 
+> patterns are realistic but not derived from production data. 
+> See [Key Assumptions](#key-assumptions).
 
 ![Executive Dashboard](visuals/01_executive_dashboard.png)
 
@@ -10,7 +13,7 @@
 
 ## 📋 Executive Summary
 
-Meridian & Partners is a UK-based management consulting firm with **305 consultants** across five practice areas, delivering **480 engagements** over a two-year period (2023–2024) generating **£25.8M in contracted revenue**. This analysis examines where the firm makes money, where it loses money, and what leadership should do about both.
+Meridian & Partners is a UK-based management consulting firm with **305 consultants** across five practice areas, delivering **480 engagements** over a two-year period (2023–2024), generating **£25.8M in contracted revenue**. This analysis examines where the firm makes money, where it loses money, and what leadership should do about both.
 
 Three interconnected problems are costing the firm millions:
 
@@ -26,11 +29,11 @@ This is the analysis a firm's Managing Partner would commission before the next 
 
 The firm's Management Committee needs answers to five questions:
 
-1. **Where is margin leaking between contract and delivery?** — Which practice areas and engagement types suffer the most from scope creep?
-2. **Where is utilisation falling short, and what's the revenue cost?** — Which consultant levels and practices are driving the gap?
-3. **Which engagements should we expand, reprice, or exit?** — How do we prioritise the portfolio for maximum return?
-4. **Are there seasonal patterns we can plan around?** — When does utilisation predictably dip, and can we staff differently?
-5. **What's the financial impact of closing the gap?** — If we improve utilisation by 2, 4, or 7 percentage points, what does the firm gain?
+1. **Where is margin leaking between contract and delivery?** - Which practice areas and engagement types suffer the most from scope creep?
+2. **Where is utilisation falling short, and what's the revenue cost?** - Which consultant levels and practices are driving the gap?
+3. **Which engagements should we expand, reprice, or exit?** - How do we prioritise the portfolio for maximum return?
+4. **Are there seasonal patterns we can plan around?** - When does utilisation predictably dip, and can we staff differently?
+5. **What's the financial impact of closing the gap?** - If we improve utilisation by 2, 4, or 7 percentage points, what does the firm gain?
 
 ---
 
